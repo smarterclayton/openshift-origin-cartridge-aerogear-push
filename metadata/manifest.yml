@@ -56,6 +56,10 @@ Provides:
   - "jboss-as7"
   - jbossas-standalone
   - jboss-as7-standalone
+Requires:
+-
+  - mysql
+  - mariadb
 Publishes:
   publish-http-url:
     Type: "NET_TCP:httpd-proxy-info"
